@@ -10,9 +10,11 @@ const Book = () => {
             <input type="checkbox" id="checkbox-page3"/>
             <div class="book">
                 <div class="cover">
-                    <i class="fa-solid fa-heart"></i>
-                    <label htmlFor="checkbox-cover"></label>
+                    <label htmlFor="checkbox-cover" class="cover-label">
+                    <div class="heart"><i class="fa-solid fa-heart"></i></div>
+                    </label>
                 </div>
+
                 <div class="page" id="page1">
                     <div class="front-page">
                         <div class="page-title">
