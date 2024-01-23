@@ -4,6 +4,7 @@
     position: relative;
     transition-duration: 1s;
     perspective: 1500;
+    font-family: 'MyFont';
   }
 
   input {
@@ -51,7 +52,7 @@
 
   .page{
     position: absolute;
-    background-color: white;
+    background-color: #e8ebe6;
     width: 570px;
     height: 670px;
     border-radius: 0 15px 15px 0;
@@ -116,7 +117,7 @@
   }
 
   #checkbox-cover:checked ~ .book{
-    transform: translateX(200px);
+    transform: translateX(300px);
   }
 
   #checkbox-cover:checked ~ .book .cover{
@@ -132,6 +133,18 @@
     z-index: 2;
   }
   #checkbox-page2:checked ~ .book #page2{
+    transform: rotateY(-180deg);
+    z-index: 3;
+  }
+  #checkbox-page3:checked ~ .book #page3{
+    transform: rotateY(-180deg);
+    z-index: 3;
+  }
+  #checkbox-page4:checked ~ .book #page4{
+    transform: rotateY(-180deg);
+    z-index: 3;
+  }
+  #checkbox-page5:checked ~ .book #page5{
     transform: rotateY(-180deg);
     z-index: 3;
   }

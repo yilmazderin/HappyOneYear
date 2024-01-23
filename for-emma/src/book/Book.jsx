@@ -8,6 +8,17 @@ const Book = () => {
             <input type="checkbox" id="checkbox-page1"/>
             <input type="checkbox" id="checkbox-page2"/>
             <input type="checkbox" id="checkbox-page3"/>
+            <input type="checkbox" id="checkbox-page4"/>
+            <input type="checkbox" id="checkbox-page5"/>
+            <input type="checkbox" id="checkbox-page6"/>
+            <input type="checkbox" id="checkbox-page7"/>
+            <input type="checkbox" id="checkbox-page8"/>
+            <input type="checkbox" id="checkbox-page9"/>
+            <input type="checkbox" id="checkbox-page10"/>
+            <input type="checkbox" id="checkbox-page11"/>
+            <input type="checkbox" id="checkbox-page12"/>
+            <input type="checkbox" id="checkbox-page13"/>
+
             <div class="book">
                 <div class="cover">
                     <label htmlFor="checkbox-cover" class="cover-label">
@@ -46,6 +57,193 @@ const Book = () => {
                         <div class="page-title"></div>
                         <div class="page-content"></div>
                         <label class="prev" for="checkbox-page2"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page4">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 3</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page4"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page4"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
+                <div class="page" id="page3">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h3>Chapter 2</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Dada</p>
+                        </div>
+                        <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-title"></div>
+                        <div class="page-content"></div>
+                        <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
