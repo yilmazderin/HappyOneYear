@@ -4,7 +4,8 @@
     position: relative;
     transition-duration: 1s;
     perspective: 1500;
-    font-family: 'MyFont';
+    font-family: 'MyFont', 'Numf';
+    font-size: 24px;
   }
 
   input {
@@ -20,6 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .page-title, .page-timeline{
+    text-align: center;
   }
   
   .cover {
@@ -50,6 +55,9 @@
     z-index: -1;
   }
 
+  #pic2 img{
+    width:50%;
+  }
   .page{
     position: absolute;
     background-color: #e8ebe6;
@@ -94,6 +102,48 @@
     position: absolute;
     bottom: 1em;
     cursor: pointer;
+  }
+
+  .imagesub {
+    
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagesub img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 75%;
+
+  }
+  
+  .imagesub p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+  }
+
+  .imagesub1 {
+    
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagesub1 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 50%;
+
+  }
+  
+  .imagesub1 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
   }
 
   .next {

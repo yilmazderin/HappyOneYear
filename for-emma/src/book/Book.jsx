@@ -1,5 +1,8 @@
 import React from 'react';
 import "./book.css";
+import Pic1 from "../assets/Pic1.png"
+import Preq1 from "../assets/Prequel1.png"
+import Preq2 from "../assets/Prequel2.png"
 
 const Book = () => {
     return (
@@ -29,7 +32,7 @@ const Book = () => {
                 <div class="page" id="page1">
                     <div class="front-page">
                         <div class="page-title">
-                            <h3>Prequel</h3>
+                            <h3>Acknowledgements</h3>
                         </div>
                         <div class="page-content">
 
@@ -43,13 +46,43 @@ const Book = () => {
                     </div>
                 </div>
 
+                <div class="page" id="page1">
+                    <div class="front-page">
+                        <div class="page-title">
+                            <h1>Prequel</h1>
+                        </div>
+                        <div class="page-timeline">
+                            <h3>October 7 - January 28</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>One could consider this story to have 2 beginnings. 1 beginning could be when Emma came to Assumption and the couple first met each other. Or one could consider the beginning of this story to start when Emma couragousely decided to compliment Derin's outfit by DMing him.</p>
+                            <div class = "imagesub" id="pic2">
+                                <img src = {Preq1} alt="Preq5"/>
+                                <p>Emma's first DM to Derin</p>
+                            </div>
+                            <p>This is the text that started this beautiful story</p>
+                        </div>
+                        <label class="next" for="checkbox-page1"><i class="fas fa-chevron-right"/></label>
+                    </div>
+                    <div class="back-page">
+                        <div class="page-content">
+                            <p>Things really picked up when Emma decided to come to London and celebrate her favourite holiday with the guy she re-met last week. She made the smart decision of trusting him and having a sleepover.</p>
+                            <div class = "imagesub1">
+                                <img src = {Preq2} alt="Preq5"/>
+                                <p>Derin and Emma dressed as painters for Halloween</p>
+                            </div>
+                        </div>
+                        <label class="prev" for="checkbox-page1"><i class="fas fa-chevron-left"/></label>
+                    </div>
+                </div>
+
                 <div class="page" id="page2">
                     <div class="front-page">
                         <div class="page-title">
                             <h3>Chapter 1</h3>
                         </div>
                         <div class="page-content">
-                            <p>Dadada</p>
+                            
                         </div>
                         <label class="next" for="checkbox-page2"><i class="fas fa-chevron-right"/></label>
                     </div>

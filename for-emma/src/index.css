@@ -5,9 +5,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Numf';
+  src: url('assets/Numf.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'MyFont', 'Numf', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,5 +27,5 @@ body {
 }
 
 code {
-  font-family: 'MyFont', monospace;
+  font-family: 'MyFont', 'Numf', monospace;
 }
