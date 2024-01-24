@@ -35,18 +35,21 @@ const Book = () => {
                             <h3>Acknowledgements</h3>
                         </div>
                         <div class="page-content">
+                            <p>I dedicate this book to my ...</p>
 
                         </div>
                         <label class="next" for="checkbox-page1"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
-                        <div class="page-title"></div>
+                        <div class="page-title">
+                            <h3>To Emma...</h3>
+                        </div>
                         <div class="page-content"></div>
                         <label class="prev" for="checkbox-page1"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
-                <div class="page" id="page1">
+                <div class="page" id="page2">
                     <div class="front-page">
                         <div class="page-title">
                             <h1>Prequel</h1>
@@ -60,9 +63,8 @@ const Book = () => {
                                 <img src = {Preq1} alt="Preq5"/>
                                 <p>Emma's first DM to Derin</p>
                             </div>
-                            <p>This is the text that started this beautiful story</p>
                         </div>
-                        <label class="next" for="checkbox-page1"><i class="fas fa-chevron-right"/></label>
+                        <label class="next" for="checkbox-page2"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
                         <div class="page-content">
@@ -72,11 +74,11 @@ const Book = () => {
                                 <p>Derin and Emma dressed as painters for Halloween</p>
                             </div>
                         </div>
-                        <label class="prev" for="checkbox-page1"><i class="fas fa-chevron-left"/></label>
+                        <label class="prev" for="checkbox-page2"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
-                <div class="page" id="page2">
+                <div class="page" id="page3">
                     <div class="front-page">
                         <div class="page-title">
                             <h3>Chapter 1</h3>
@@ -93,7 +95,7 @@ const Book = () => {
                     </div>
                 </div>
 
-                <div class="page" id="page3">
+                <div class="page" id="page4">
                     <div class="front-page">
                         <div class="page-title">
                             <h3>Chapter 2</h3>
@@ -110,7 +112,7 @@ const Book = () => {
                     </div>
                 </div>
 
-                <div class="page" id="page4">
+                <div class="page" id="page5">
                     <div class="front-page">
                         <div class="page-title">
                             <h3>Chapter 3</h3>
@@ -127,7 +129,7 @@ const Book = () => {
                     </div>
                 </div>
 
-                <div class="page" id="page3">
+                <div class="page" id="page6">
                     <div class="front-page">
                         <div class="page-title">
                             <h3>Chapter 2</h3>
