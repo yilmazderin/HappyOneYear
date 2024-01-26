@@ -87,6 +87,7 @@
     height: 100%;
     backface-visibility: hidden;
     z-index: 99;
+    margin-left: -10px;
   }
 
   .heart {
@@ -113,20 +114,17 @@
     align-items: center;
     justify-content: center;
   }
-  
   .imagesub img {
    max-width:100%; /* Ensures the image doesn't overflow the page */
    width: 75%;
 
   }
-  
   .imagesub p {
     margin-top: -10px;
     text-align: center; /* Centers the caption text below the image */
   }
 
   .imagesub1 {
-    
     text-align: center; /* Centers the image and its caption */
     margin: 0 auto; /* Ensures the image block is centered */
     display: flex; /* Makes the imagesub a block element to apply margin */
@@ -134,16 +132,159 @@
     align-items: center;
     justify-content: center;
   }
-  
   .imagesub1 img {
    max-width:100%; /* Ensures the image doesn't overflow the page */
    width: 50%;
-
   }
-  
   .imagesub1 p {
     margin-top: -10px;
     text-align: center; /* Centers the caption text below the image */
+  }
+
+  .imagesub2 {
+    text-align: center; /* Centers the image and its caption */
+    top: -30px; /* Align to the top of the parent */
+    left: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transform: rotate(-20deg);
+  }
+  .imagesub2 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 35%;
+  }
+  .imagesub2 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub3 {
+    text-align: center; /* Centers the image and its caption */
+    top: -30px; /* Align to the top of the parent */
+    right: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    transform: rotate(20deg); /* Rotate the container */
+    
+  }
+  .imagesub3 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 35%;
+  }
+  .imagesub3 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub4 {
+    text-align: center; /* Centers the image and its caption */
+    bottom: 80px; /* Align to the top of the parent */
+    left: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transform: rotate(-10deg); /* Rotate the container */
+  }
+  .imagesub4 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 35%;
+  }
+  .imagesub4 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub5 {
+    text-align: center; /* Centers the image and its caption */
+    bottom: 80px; /* Align to the top of the parent */
+    right: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    transform: rotate(10deg); /* Rotate the container */
+  }
+  .imagesub5 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 35%;
+  }
+  .imagesub5 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub6 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagesub6 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 45%;
+  }
+  .imagesub6 p {
+    margin-top: -15px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub6 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagesub6 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 45%;
+  }
+  .imagesub6 p {
+    margin-top: -15px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .imagesub7 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagesub7 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 30%;
+  }
+  .imagesub7 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 16px;
+  }
+
+  .Prequeltit {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
   .next {
@@ -157,15 +298,14 @@
   #page1{
     z-index: 3;
   }
-
   #page2{
     z-index: 2;
   }
-
   #page3{
     z-index: 1;
   }
-
+  
+  
   #checkbox-cover:checked ~ .book{
     transform: translateX(300px);
   }
@@ -188,13 +328,13 @@
   }
   #checkbox-page3:checked ~ .book #page3{
     transform: rotateY(-180deg);
-    z-index: 3;
+    z-index: 4;
   }
   #checkbox-page4:checked ~ .book #page4{
     transform: rotateY(-180deg);
-    z-index: 3;
+    z-index: 5;
   }
   #checkbox-page5:checked ~ .book #page5{
     transform: rotateY(-180deg);
-    z-index: 3;
+    z-index: 6;
   }
