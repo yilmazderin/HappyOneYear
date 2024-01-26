@@ -127,7 +127,6 @@ const Book = () => {
                                 <img src = {Preq3} alt="Preq3"/>
                                 <p>Christmas dinner with the Yilmaz fam</p>
                             </div>
-                            
                         </div>
                         <label class="next" for="checkbox-page3"><i class="fas fa-chevron-right"/></label>
                     </div>
@@ -144,10 +143,6 @@ const Book = () => {
                                 <img src = {O2} alt="O1"/>
                                 <p>A hyper-realistic drawing of what happened on Valentine's Day</p>
                             </div>
-                            <div class = "imagesub7" id="O1">
-                                <img src = {O1} alt="O1"/>
-                                <p>The only photo that was recovered from that month.</p>
-                            </div>
                         </div>
                         <label class="prev" for="checkbox-page3"><i class="fas fa-chevron-left"/></label>
                     </div>
@@ -155,78 +150,138 @@ const Book = () => {
 
                 <div class="page" id="page4">
                     <div class="front-page">
-                        <div class="page-title">
-                        </div>
                         <div class="page-content">
-                            <p>Dada</p>
+                            <div class = "imagesub7" id="O1">
+                                <img src = {O1} alt="O1"/>
+                                <p>The only photo that was recovered from that month.</p>
+                            </div>
                         </div>
                         <label class="next" for="checkbox-page4"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
-                        <div class="page-title"></div>
-                        <div class="page-content"></div>
+                        <div class="page-title">
+                            <h1>Chapter 2</h1>
+                        </div>
+                        <div class="page-timeline">
+                            <h3>March 1 - March 28</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>March had a lot of fun things for the two of them. They celebrated St.Patty's Day and Derin's birthday!</p>
+                        </div>
+                        <div class = "imagesub8" id="O1">
+                                <img src = {Tw4} alt="O1"/>
+                                <p>A lovely dinner at K-Grill</p>
+                        </div>
+                        <div class = "imagesub9" id="O1">
+                                <img src = {Tw3} alt="O1"/>
+                                <p>Eating yummy St.Patty's Day cake</p>
+                        </div>
                         <label class="prev" for="checkbox-page4"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
                 <div class="page" id="page5">
                     <div class="front-page">
-                        <div class="page-title">
-                            <h3>Chapter 3</h3>
-                        </div>
                         <div class="page-content">
-                            <p></p>
+                        <div class = "imagesub10" id="O1">
+                            <img src = {Tw1} alt="O1"/>
+                            <p>Derin's birthday! (March 27 not January 27...)</p>
+                        </div>
+                        <div class = "imagesub10" id="O1">
+                            <img src = {Tw2} alt="O1"/>
+                        </div>
                         </div>
                         <label class="next" for="checkbox-page5"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
-                        <div class="page-title"></div>
-                        <div class="page-content"></div>
+                        <div class="page-title">
+                            <h1>Chapter 3</h1>
+                        </div>
+                        <div class="page-timeline">
+                            <h3>March 29 - April 28</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>April was a relaxing month. Not many exciting events just spending quality time with each other, eating QUALITY food.</p>
+                            <div class = "imagesub1" id="O1">
+                                <img src = {Th1} alt="O1"/>
+                                <p>1 Mazza-Mazza please</p>
+                            </div>
+                        </div>
                         <label class="prev" for="checkbox-page5"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
                 <div class="page" id="page6">
                     <div class="front-page">
-                        <div class="page-title">
-                            <h3>Chapter 2</h3>
-                        </div>
                         <div class="page-content">
-                            <p></p>
+                            <div class = "imagesub" id="O1">
+                                <img src = {Th2} alt="O1"/>
+                                <p>Can't forget Village Kitchen. By the way, just look how beautiful she is. I can't tell what I want to eat more, the food or... nvm. </p>
+                            </div>
                         </div>
                         <label class="next" for="checkbox-page6"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
-                        <div class="page-title"></div>
-                        <div class="page-content"></div>
+                    <div class="page-title">
+                            <h1>Chapter 4</h1>
+                        </div>
+                        <div class="page-timeline">
+                            <h3>April 29 - May 28</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Again, this was a very chill month. Not much was documented. However... Derin did start to notice some weird patterns in Emma's actions. He realized, she started to dress and act a lot like someone he knew...</p>
+                            <br/>
+                            <p>He just couldn't quite tell who she looked like.</p>
+                            <br/>
+                            <p>Whatever was happening, Derin knew it wasn't normal, so he proceeded with caution.</p>
+                        </div>
                         <label class="prev" for="checkbox-page6"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
                 <div class="page" id="page7">
                     <div class="front-page">
-                        <div class="page-title">
-                            <h3>Chapter 2</h3>
-                        </div>
                         <div class="page-content">
-                            <p></p>
+                        <div class = "imagesub" id="O1">
+                                <img src = {Fo1} alt="O1"/>
+                                <p>Very weird</p>
+                            </div>
                         </div>
                         <label class="next" for="checkbox-page7"><i class="fas fa-chevron-right"/></label>
                     </div>
                     <div class="back-page">
-                        <div class="page-title"></div>
-                        <div class="page-content"></div>
+                    <div class="page-title">
+                            <h1>Chapter 5</h1>
+                        </div>
+                        <div class="page-timeline">
+                            <h3>May 29 - June 28</h3>
+                        </div>
+                        <div class="page-content">
+                            <p>Things are starting to pickup this month. For Derin's birthday, Emma so generously purchases VIP tickets for his favourite band, The Backseat Lovers!</p>
+                            <div class = "imagesub7" id="O1">
+                                <img src = {Fi4} alt="O1"/>
+                                <p>The Backseat Lovers in action</p>
+                            </div>
+                        </div>
                         <label class="prev" for="checkbox-page7"><i class="fas fa-chevron-left"/></label>
                     </div>
                 </div>
 
                 <div class="page" id="page8">
                     <div class="front-page">
-                        <div class="page-title">
-                            <h3>Chapter 2</h3>
-                        </div>
                         <div class="page-content">
-                            <p></p>
+                            <div class = "imagesub2" id="O1">
+                                <img src = {Fi5} alt="O1"/>
+                                <p>Very weird</p>
+                            </div>
+                            <div class = "imagesub3" id="O1">
+                                <img src = {Fi3} alt="O1"/>
+                                <p>Yeah, they're VIPs</p>
+                            </div>
+                            <div class = "imagesub8" id="O1">
+                                <img src = {Fi1} alt="O1"/>
+                                <p>Very weird</p>
+                            </div>
                         </div>
                         <label class="next" for="checkbox-page8"><i class="fas fa-chevron-right"/></label>
                     </div>

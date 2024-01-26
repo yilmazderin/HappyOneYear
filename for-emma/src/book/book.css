@@ -52,7 +52,7 @@
   
   .back-cover {
     position: relative;
-    z-index: -1;
+    z-index: -12;
   }
 
   #pic2 img{
@@ -236,30 +236,12 @@
   }
   .imagesub6 img {
    max-width:100%; /* Ensures the image doesn't overflow the page */
-   width: 45%;
+   width: 75%;
   }
   .imagesub6 p {
     margin-top: -15px;
     text-align: center; /* Centers the caption text below the image */
-    font-size: 16px;
-  }
-
-  .imagesub6 {
-    text-align: center; /* Centers the image and its caption */
-    margin: 0 auto; /* Ensures the image block is centered */
-    display: flex; /* Makes the imagesub a block element to apply margin */
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .imagesub6 img {
-   max-width:100%; /* Ensures the image doesn't overflow the page */
-   width: 45%;
-  }
-  .imagesub6 p {
-    margin-top: -15px;
-    text-align: center; /* Centers the caption text below the image */
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .imagesub7 {
@@ -269,15 +251,76 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
   }
   .imagesub7 img {
    max-width:100%; /* Ensures the image doesn't overflow the page */
-   width: 30%;
+   width: 80%;
   }
   .imagesub7 p {
     margin-top: -5px;
     text-align: center; /* Centers the caption text below the image */
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .imagesub8 {
+    text-align: center; /* Centers the image and its caption */
+    bottom: 80px; /* Align to the top of the parent */
+    left: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .imagesub8 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 45%;
+  }
+  .imagesub8 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub9 {
+    text-align: center; /* Centers the image and its caption */
+    bottom: 30px; /* Align to the top of the parent */
+    right: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .imagesub9 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 45%;
+  }
+  .imagesub9 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub10 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagesub10 img {
+    margin-top: -25px;
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 40%;
+  }
+  .imagesub10 p {
+    margin-top: 5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 28px;
   }
 
   .Prequeltit {
@@ -304,8 +347,43 @@
   #page3{
     z-index: 1;
   }
-  
-  
+  #page4{
+    z-index: 0;
+  }
+  #page5{
+    z-index: -1;
+  }
+  #page6{
+    z-index: -2;
+  }
+  #page7{
+    z-index: -3;
+  }
+  #page8{
+    z-index: -4;
+  }
+  #page9{
+    z-index: -5;
+  }
+  #page10{
+    z-index: -6;
+  }
+  #page11{
+    z-index: -7;
+  }
+  #page12{
+    z-index: -8;
+  }
+  #page13{
+    z-index: -9;
+  }
+  #page14{
+    z-index: -10;
+  }
+  #page15{
+    z-index: -11;
+  }
+
   #checkbox-cover:checked ~ .book{
     transform: translateX(300px);
   }
@@ -337,4 +415,12 @@
   #checkbox-page5:checked ~ .book #page5{
     transform: rotateY(-180deg);
     z-index: 6;
+  }
+  #checkbox-page6:checked ~ .book #page6{
+    transform: rotateY(-180deg);
+    z-index: 7;
+  }
+  #checkbox-page7:checked ~ .book #page7{
+    transform: rotateY(-180deg);
+    z-index: 8;
   }
