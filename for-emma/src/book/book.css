@@ -48,16 +48,11 @@
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
 }
-
-  
   .back-cover {
     position: relative;
-    z-index: -12;
+    z-index: -20;
   }
 
-  #pic2 img{
-    width:50%;
-  }
   .page{
     position: absolute;
     background-color: #e8ebe6;
@@ -68,7 +63,7 @@
     transform-origin: left;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
-    transition-duration: 1.5s;
+
   }
   
   .front-page{
@@ -264,6 +259,7 @@
   }
 
   .imagesub8 {
+    
     text-align: center; /* Centers the image and its caption */
     bottom: 80px; /* Align to the top of the parent */
     left: 25px; /* Makes the imagesub a block element to apply margin */
@@ -321,6 +317,164 @@
     margin-top: 5px;
     text-align: center; /* Centers the caption text below the image */
     font-size: 28px;
+  }
+
+  .imagesub11 {
+    
+    text-align: center; /* Centers the image and its caption */
+    top: 50px; /* Align to the top of the parent */
+    left: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .imagesub11 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 45%;
+  }
+  .imagesub11 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub12 {
+    text-align: center; /* Centers the image and its caption */
+    top: 50px; /* Align to the top of the parent */
+    right: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .imagesub12 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 75%;
+  }
+  .imagesub12 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub13 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 360px;
+  }
+  .imagesub13 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 40%;
+  }
+  .imagesub13 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub14 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+  }
+  .imagesub14 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 50%;
+  }
+  .imagesub14 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub15 {
+    
+    text-align: center; /* Centers the image and its caption */
+    top: 50px; /* Align to the top of the parent */
+    left: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .imagesub15 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 50%;
+  }
+  .imagesub15 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub16 {
+    text-align: center; /* Centers the image and its caption */
+    top: 50px; /* Align to the top of the parent */
+    right: 25px; /* Makes the imagesub a block element to apply margin */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .imagesub16 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 50%;
+  }
+  .imagesub16 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub17 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 410px;
+  }
+  .imagesub17 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 33%;
+  }
+  .imagesub17 p {
+    margin-top: -5px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
+  }
+
+  .imagesub18 {
+    text-align: center; /* Centers the image and its caption */
+    margin: 0 auto; /* Ensures the image block is centered */
+    display: flex; /* Makes the imagesub a block element to apply margin */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 395px;
+  }
+  .imagesub18 img {
+   max-width:100%; /* Ensures the image doesn't overflow the page */
+   width: 55%;
+  }
+  .imagesub18 p {
+    margin-top: -10px;
+    text-align: center; /* Centers the caption text below the image */
+    font-size: 20px;
   }
 
   .Prequeltit {
@@ -383,6 +537,15 @@
   #page15{
     z-index: -11;
   }
+  #page16{
+    z-index: -12;
+  }
+  #page17{
+    z-index: -13;
+  }
+  #page18{
+    z-index: -14;
+  }
 
   #checkbox-cover:checked ~ .book{
     transform: translateX(300px);
@@ -391,7 +554,7 @@
   #checkbox-cover:checked ~ .book .cover{
     transition: transform 1.5s, z-index 0.5s 0.5s;
     transform: rotateY(-180deg);
-    z-index: 1;
+    z-index: 0;
   }
   #checkbox-cover:checked ~ .book .page{
     box-shadow: 0 0 3px rgb(99,98,98);
@@ -423,4 +586,48 @@
   #checkbox-page7:checked ~ .book #page7{
     transform: rotateY(-180deg);
     z-index: 8;
+  }
+  #checkbox-page8:checked ~ .book #page8{
+    transform: rotateY(-180deg);
+    z-index: 9;
+  }
+  #checkbox-page9:checked ~ .book #page9{
+    transform: rotateY(-180deg);
+    z-index: 10;
+  }
+  #checkbox-page10:checked ~ .book #page10{
+    transform: rotateY(-180deg);
+    z-index: 11;
+  }
+  #checkbox-page11:checked ~ .book #page11{
+    transform: rotateY(-180deg);
+    z-index: 12;
+  }
+  #checkbox-page12:checked ~ .book #page12{
+    transform: rotateY(-180deg);
+    z-index: 13;
+  }
+  #checkbox-page13:checked ~ .book #page13{
+    transform: rotateY(-180deg);
+    z-index: 14;
+  }
+  #checkbox-page14:checked ~ .book #page14{
+    transform: rotateY(-180deg);
+    z-index: 15;
+  }
+  #checkbox-page15:checked ~ .book #page15{
+    transform: rotateY(-180deg);
+    z-index: 16;
+  }
+  #checkbox-page16:checked ~ .book #page16{
+    transform: rotateY(-180deg);
+    z-index: 17;
+  }
+  #checkbox-page17:checked ~ .book #page17{
+    transform: rotateY(-180deg);
+    z-index: 18;
+  }
+  #checkbox-page18:checked ~ .book #page18{
+    transform: rotateY(-180deg);
+    z-index: 19;
   }
